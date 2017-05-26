@@ -1,6 +1,36 @@
 body {
   background-image: url("space_background.jpg");
   background-size: contain;
+}
+
+header nav ul {
+  list-style: none;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+header nav li {
+  display: inline-block;
+  padding-left: 160px;
+  padding-right: 160px;
+  text-decoration: none;
+}
+
+header nav li:hover {
+  text-decoration: none;
+  color: rgb(179, 240, 137);
+}
+
+div {
+  background-color: grey;
+  opacity: 0.4;
+}
+
+header {
+  color: rgb(179, 240, 137);
+}
+
+img {
   -webkit-animation:spin 4s linear infinite;
   -moz-animation:spin 4s linear infinite;
   animation:spin 4s linear infinite;
