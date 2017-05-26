@@ -23,8 +23,7 @@ header nav ul {
 
 header nav li {
   display: inline-block;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding: auto;
   text-decoration: none;
 }
 
@@ -82,7 +81,7 @@ img {
     text-decoration: none;
   }
 
-  header nav li: hover {  
+  header nav li: hover {
     text-decoration: none;
     color: rgb(179, 240, 137);
   }
@@ -143,7 +142,7 @@ img {
     text-decoration: none;
   }
 
-  header nav li: hover {  
+  header nav li: hover {
     text-decoration: none;
     color: rgb(179, 240, 137);
   }
@@ -258,7 +257,7 @@ img {
     text-decoration: none;
   }
 
-  header nav li: hover {  
+  header nav li: hover {
     text-decoration: none;
     color: rgb(179, 240, 137);
   }
@@ -278,4 +277,3 @@ img {
     margin: auto;
     }
   }
-
