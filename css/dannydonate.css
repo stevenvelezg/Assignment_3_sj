@@ -1,0 +1,65 @@
+body {
+  max-width: 800px;
+  margin: auto;
+  background-image: url("../images/background.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-color: rgb(255,212,3);
+  background-attachment: fixed;
+}
+nav {
+  display: inline-block;
+  overflow: hidden;
+  display: fixed;
+  width: 100%;
+  background-color: lavender;
+  position: relative;
+  opacity: 0.8;
+}
+nav ul {
+  list-style: none;
+  display: inline-block;
+  float: right;
+  padding-right: 20px;
+  vertical-align: bottom;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+nav ul li {
+  display: inline;
+  font-size: 30px;
+  padding-left: 10px;
+}
+#logo {
+  float: left;
+  max-width: 300px;
+  padding: 20px;
+}
+.donation {
+  max-width: 600px;
+  width: 80%;
+  margin: auto;
+  border-style: solid;
+  border-color: black;
+  border: 2px;
+  background-color: rgb(255,212,3);
+  font-family: Helvetica, sans-serif;
+  opacity: 0.8;
+}
+.donation h3 {
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 0;
+}
+.fields input {
+  width: 80%;
+  display: block;
+  margin: 2px auto;
+}
+.button {
+  background-color: lavender;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 10px;
+}

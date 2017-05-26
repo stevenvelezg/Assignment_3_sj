@@ -1,0 +1,76 @@
+/*div {
+  background-image: url("wallhaven-426923.png");
+  float: left;
+  margin: 20px;
+  width: 100px;
+  height: 100px;
+}*/
+
+body {
+  margin: 20px auto 0;
+  padding: 0 20px;
+  background-image: url("space_background.jpg");
+  background-size: contain;
+}
+
+header nav ul {
+  list-style: none;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+header nav li {
+  display: inline-block;
+  padding-left: 160px;
+  padding-right: 160px;
+  text-decoration: none;
+}
+
+header nav li:hover {
+  text-decoration: none;
+  color: rgb(179, 240, 137);
+}
+
+div {
+  background-color: grey;
+  opacity: 0.4;
+}
+
+header {
+  color: rgb(179, 240, 137);
+}
+
+img {
+  float: left;
+  margin: 20px;
+}
+
+@media all and (max-width: 1226px) {
+  header nav li {
+    display: inline-block;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-decoration: none;
+  }
+}
+
+@media all and (max-width: 890px) {
+  header nav li {
+    display: inline-block;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-decoration: none;
+  }
+}
+
+@media all and (max-width: 590px) {
+  header nav li {
+    float: left;
+    margin-left: 150px;
+    clear: left;
+    text-decoration: none;
+  }
+  div {
+    height: 100px;
+  }
+}
