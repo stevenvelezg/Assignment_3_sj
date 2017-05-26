@@ -1,0 +1,111 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: cyan;
+  border: 2px dotted #000;
+  float: left;
+  margin: 10px 15px;
+  transition-property: background-color margin;
+  transition-duration: 2s;
+  background-image: url("http://files.gamebanana.com/img/ico/sprays/5505d4a832ede.png");
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.box:hover {
+  background-color: springgreen;
+  background-image: url("https://pbs.twimg.com/profile_images/535222646963572736/KZItD1f-.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+body {
+  background-color: pink;
+  transition: background-color 1s linear;
+  text-align: center;
+  font-family: cursive;
+  -webkit-animation:colorchange 2s infinite alternate;
+}
+nav {
+  display: inline-block;
+  overflow: hidden;
+  display: fixed;
+  width: 100%;
+  background-color: lavender;
+  position: relative;
+  opacity: 0.8;
+}
+nav ul {
+  list-style: none;
+  display: inline-block;
+  float: right;
+  padding-right: 20px;
+  vertical-align: bottom;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+nav ul li {
+  display: inline;
+  font-size: 30px;
+  padding-left: 10px;
+}
+#logo {
+  float: left;
+  max-width: 300px;
+  padding: 20px;
+}
+h1 {
+  font-size: 50px;
+}
+@media (max-width: 400px) {
+  body {
+    background-color: cyan;
+  }
+  .box {
+    background-color:pink;
+    width: 100px;
+    height: 100px;
+  }
+  .box:hover {
+    background-color: springgreen;
+  }
+  h1 {
+    font-size: 20px;
+  }
+}
+@-webkit-keyframes colorchange {
+      0% {
+        color: blue;
+      }
+      10% {
+        color: #8e44ad;
+      }
+      20% {
+        color: #1abc9c;
+      }
+      30% {
+        color: #d35400;
+      }
+      40% {
+        color: blue;
+      }
+      50% {
+        color: #34495e;
+      }
+      60% {
+        color: blue;
+      }
+      70% {
+        color: #2980b9;
+      }
+      80% {
+        color: #f1c40f;
+      }
+      90% {
+        color: #2980b9;
+      }
+      100% {
+        color: pink;
+      }
+    }
