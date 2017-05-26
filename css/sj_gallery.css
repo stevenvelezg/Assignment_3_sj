@@ -1,0 +1,81 @@
+/*div {
+  background-image: url("wallhaven-426923.png");
+  float: left;
+  margin: 20px;
+  width: 100px;
+  height: 100px;
+}*/
+
+body {
+  width: 1300px;
+  background-image: url("space_background.jpg");
+  background-size: contain;
+}
+
+.i1 {
+  float: left;
+  margin: 20px;
+  background-image: url("gif1.gif");
+  height: 400px;
+  width: 400px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.i2 {
+  float: left;
+  margin: 20px;
+  background-image: url("gif2.gif");
+  height: 400px;
+  width: 400px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.i3 {
+  float: left;
+  margin: 20px;
+  background-image: url("gif3.gif");
+  height: 400px;
+  width: 400px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.i4 {
+  float: left;
+  margin: 20px;
+  background-image: url("gif4.gif");
+  height: 400px;
+  width: 400px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.i5 {
+  float: left;
+  margin: 20px;
+  background-image: url("gif5.gif");
+  height: 400px;
+  width: 400px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.i6 {
+  float: left;
+  margin: 20px;
+  background-image: url("gif6.gif");
+  height: 400px;
+  width: 400px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.i7 {
+  float: left;
+  margin: 20px;
+  background-image: url("gif7.gif");
+  height: 400px;
+  width: 400px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
