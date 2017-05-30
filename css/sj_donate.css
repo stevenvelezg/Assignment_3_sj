@@ -1,33 +1,48 @@
 body {
   background-image: url("space_background.jpg");
+  margin: 20px auto 0;
+  padding: 0 20px;
   background-size: contain;
+  width: 80%;
+  color: white;
 }
 
 header nav ul {
   list-style: none;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 0;
 }
 
-header nav li {
+ul {
+  position: absolute;
+  top: -450px;
+  transition: 2s;
+}
+
+li {
+  margin: 13px 20px;
+  color: white;
+}
+
+div.menu {
+  width: 40px;
+  height: 5px;
+  margin-top: 5px;
+  margin-left: 20px;
+  background-color: white;
+}
+
+.wrapper {
+  float: left;
+  position: relative;
+  overflow: hidden;
   display: inline-block;
-  padding-left: 160px;
-  padding-right: 160px;
-  text-decoration: none;
+  width: 100px;
+  height: 200px;
 }
 
-header nav li:hover {
-  text-decoration: none;
-  color: rgb(179, 240, 137);
-}
-
-div {
-  background-color: grey;
-  opacity: 0.4;
-}
-
-header {
-  color: rgb(179, 240, 137);
+.hoverBar:hover .items {
+  transition: 2s;
+  top: -20px;
 }
 
 img {

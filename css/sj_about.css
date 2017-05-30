@@ -3,7 +3,7 @@ body {
   margin: 20px auto 0;
   padding: 0 20px;
   background-size: contain;
-  width: 900px;
+  width: 80%;
   color: white;
 }
 
@@ -24,6 +24,12 @@ ul {
   position: absolute;
   top: -450px;
   transition: 2s;
+}
+
+li {
+  margin: 13px 20px;
+  color: white;
+}
 
 div.menu {
   width: 40px;
@@ -48,7 +54,7 @@ div.menu {
 }
 
 img {
-  width: 400px;
+  width: 50%;
   display: block;
   margin: auto;
 }
