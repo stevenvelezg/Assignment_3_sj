@@ -4,7 +4,8 @@ div {
 }
 
 body {
-  background-image: url("background.png");
+  background-image: url("../Screen Shot 2017-05-25 at 4.20.46 PM.png");
+  width: 100% auto;
+  height: 100%;
   background-position: center;
-  background-repeat: no-repeat;
 }
