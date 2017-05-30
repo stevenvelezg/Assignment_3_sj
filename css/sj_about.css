@@ -24,19 +24,14 @@ ul {
   position: absolute;
   top: -450px;
   transition: 2s;
-}
 
-li {
-  margin: 13px 20px;
-}
-
-div.menu {
+/*div.menu {
   width: 40px;
   height: 5px;
   margin-top: 5px;
   margin-left: 20px;
   background-color: white;
-}
+}*/
 
 .wrapper {
   float: left;
